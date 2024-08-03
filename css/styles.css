@@ -673,7 +673,10 @@ img {
     padding: 40px 32px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
-
+.social-subtitle {
+    text-align: center;
+     
+}
 }
 
 
@@ -785,11 +788,11 @@ list-style: none;
 
 }
 .footer-formcontainer {
-    max-width: 208px;
+    /*max-width: 208px;
     width: 453px;
     height: 80px;
-    margin-right: auto;
     margin-left: 80px;
+     margin-right: auto;*/
 }
 .text-subscr {
     font-weight: 500;
@@ -861,11 +864,12 @@ list-style: none;
     padding-bottom: 96px;
     }
 .container {
-            max-width: 320px;
+    max-width: 320px;
              
     
         }
 .container-footer {
+
     justify-content: center;
     flex-wrap: wrap;
     gap: 72px;
@@ -1211,7 +1215,6 @@ input:checked+label>span {
 @media screen and (min-width: 768px) {
     .container  {
     max-width: 768px;
-     
     }
 
     .main-title {
@@ -1222,8 +1225,6 @@ input:checked+label>span {
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/herobg-tab1.jpg);
-    
-    
     
     }
     .page-title {
@@ -1348,7 +1349,22 @@ input:checked+label>span {
 }
 .container-contentfooter  {
     display: inline-block;
+    margin: auto 0;
 }
+.footer-formcontainer {
+    display: inline-block;
+    margin:0;
+}
+.inpform {
+    width: 264px;
+}
+.footer-form {
+    gap: 48px;
+    
+}
+ .social-subtitle {
+    text-align: left;
+ }
 
 
 
