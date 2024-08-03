@@ -352,6 +352,7 @@ img {
     min-width: 320px;
 
 }
+ 
 .page-title {
     font-weight: 700;
     font-size: 36px;
@@ -400,16 +401,25 @@ img {
 }
 
 @media screen and (min-width: 320px) {
+
+    
      .main-title {
      
     padding-bottom: 72px;
     padding-top: 72px;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/herobg-mob1.jpg);
+    url(../images/herobg-mob1.jpg) ;
     
 
     }
+ @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution:192dpi) {
+    .main-title {
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobg-mob2.jpg);
+    } 
+            
+    }
+
     .features-icon-container  {
          display: none;
     }
@@ -629,10 +639,10 @@ img {
     
 
 .our-portfolio {
-    width:288px;
+    
     padding-top: 96px;
     padding-bottom: 96px;
-    margin:auto;
+     
 }
  
 .our-portfolio-title {
@@ -1232,6 +1242,15 @@ input:checked+label>span {
     url(../images/herobg-tab1.jpg);
     
     }
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution:192dpi) {
+         .main-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/herobg-tab2.jpg);
+            }
+        }
     .page-title {
         font-size: 56px;
         line-height: 1.07;
@@ -1403,7 +1422,16 @@ input:checked+label>span {
     padding-top: 188px;
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);
+            url(../images/people-office.jpg),url(./images/);
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution:192dpi) {
+    .main-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office2x.jpg);
+    }
 }
 .page-title {
     margin-bottom: 48px;
