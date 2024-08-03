@@ -1361,7 +1361,8 @@ input:checked+label>span {
 }
 .footer-form {
     gap: 48px;
-    
+    flex-wrap:nowrap;
+    justify-content:space-between;
 }
  .social-subtitle {
     text-align: left;
