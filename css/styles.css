@@ -1422,7 +1422,7 @@ input:checked+label>span {
     padding-top: 188px;
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg),url(./images/);
+            url(../images/people-office1x.jpg),url(./images/);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
