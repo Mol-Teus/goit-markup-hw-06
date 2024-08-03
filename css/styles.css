@@ -1367,15 +1367,14 @@ input:checked+label>span {
  }
 
 
-
+/*------modal------*/
+.modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
 }
 
-
-
-
-
-
-
+}
 
 
 /*-------------------DeskTop----------------------*/
@@ -1385,25 +1384,36 @@ input:checked+label>span {
      .container {
         max-width: 1158px;
         padding: 0 15px;
-        margin: 0 auto;
+         
 }
-   .header-logo {
+.main-title {
+    
+}
+.page-title {
+    margin-bottom: 48px;
+}
+.header-logo {
         margin-right: 76px;
 }
 .contacts-list {
    flex-direction: row;
-    align-items: center;
     gap: 40px;
-    color: #434455;
 }
 .contacts-link {
-    
-    padding: 24px 0;
-     
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;  
 }
+ 
+
+
+
+
+
+
+
+
+
 }
 
 
