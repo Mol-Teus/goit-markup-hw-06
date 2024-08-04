@@ -337,6 +337,7 @@ img {
 /*--------Main Title----------*/
 
 .main-title {
+    
     background-color: #2e2f42;
     padding-bottom: 188px;
     padding-top: 188px;
@@ -1435,7 +1436,7 @@ input:checked+label>span {
 .main-title {
     padding-bottom: 188px;
     padding-top: 188px;
-    width: 1158px;
+    width: 100%;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office1x.jpg),url(./images/);
 }
