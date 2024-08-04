@@ -349,7 +349,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-width: 320px;
+    
 
 }
  
@@ -361,7 +361,7 @@ img {
     letter-spacing: 0.02em;
      
     color: #fff;
-    width: 496px;
+    width: 216px;
 
     margin: 0 auto;
     
@@ -1258,6 +1258,7 @@ input:checked+label>span {
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 36px;
+        width: 496px;
     
     }
     .mobile-menu {
@@ -1448,7 +1449,7 @@ input:checked+label>span {
     }
 }
 .page-title {
-    width: 1158px;
+    width: 496px;
     margin-bottom: 48px;
 }
 .header-logo {
