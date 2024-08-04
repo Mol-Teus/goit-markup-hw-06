@@ -1436,7 +1436,7 @@ input:checked+label>span {
 .main-title {
     padding-bottom: 188px;
     padding-top: 188px;
-    width: 100%;
+    width:100%;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office1x.jpg),url(./images/);
 }
