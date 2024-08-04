@@ -752,7 +752,7 @@ list-style: none;
      
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 264px;
+    width: 264px;
      
 }
 
@@ -1400,7 +1400,7 @@ input:checked+label>span {
     width: 264px;
 }
 .footer-form {
-    gap: 48px;
+    gap: 24px;
     flex-wrap:nowrap;
     justify-content:space-between;
 }
