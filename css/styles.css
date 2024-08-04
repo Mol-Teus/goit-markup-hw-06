@@ -1557,8 +1557,7 @@ input:checked+label>span {
     flex-wrap: nowrap;
 }
 .container-contentfooter {
-    /*margin-right: 120px;*/
-    margin-left: 120px;
+    margin: auto 0;
 }
 /*.container.social-container{
     
