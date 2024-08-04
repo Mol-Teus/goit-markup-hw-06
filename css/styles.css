@@ -1393,7 +1393,7 @@ input:checked+label>span {
     display: inline-block;
     /*margin: auto 0;*/
     margin-bottom: 72px;
-    width: 264px;
+    max-width: 264px;
 }
 .social-container{
     margin-left: 24px;
@@ -1588,7 +1588,9 @@ input:checked+label>span {
     display:block;
     margin-right:80px;
 }
-
+.social-container {
+    margin-left: 0;
+}
  
 .footer-form {
    
