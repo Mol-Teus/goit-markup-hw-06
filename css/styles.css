@@ -1239,7 +1239,7 @@ input:checked+label>span {
     .main-title {
     padding-bottom: 112px;
     padding-top: 112px;
-    max-width: 768px;
+    width: 768px;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/herobg-tab1.jpg);
@@ -1258,9 +1258,7 @@ input:checked+label>span {
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 36px;
-        
-
-
+    
     }
     .mobile-menu {
             display: flex;
