@@ -1388,6 +1388,7 @@ input:checked+label>span {
 .container-contentfooter  {
     display: inline-block;
     margin: auto 0;
+    width: 264px;
 }
 .footer-formcontainer {
     display: inline-block;
