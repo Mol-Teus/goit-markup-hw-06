@@ -1359,7 +1359,7 @@ input:checked+label>span {
    }
 .our-portfolio {
     width: 768px;
-     
+    margin: 0 auto;
     background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
