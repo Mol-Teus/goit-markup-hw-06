@@ -1509,12 +1509,12 @@ input:checked+label>span {
     width: calc((100% - 72px) / 4);
 }
 .our-portfolio {
-    width:1128px;
+    width:1158px;
     padding-top: 120px;
     padding-bottom: 120px; 
 }
 .our-potrfolio-container{
-    width: 1128px;
+    width: 1158px;
 }
 .our-portfolio-list {
     gap: 40px 24px;
@@ -1526,8 +1526,8 @@ input:checked+label>span {
 .team-photocard {
     height: 300px;
     display: block;
-    max-width: 100%;
-    object-fit: cover;
+    width: 100%;
+    object-fit:cover;
 }
 .menu-overlay {
     display: inline-block;
