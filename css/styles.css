@@ -1578,11 +1578,10 @@ input:checked+label>span {
     width: 1158px;
     display: block;
     /*margin-right: 120px;*/
+    margin-bottom: 0;
     gap: 0;
 }
 .footer-formcontainer {
-    
-    
     margin-left: 80px ;
 }
 .container.social-container{
