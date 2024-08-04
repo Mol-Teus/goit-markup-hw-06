@@ -1520,6 +1520,7 @@ input:checked+label>span {
 }
 .our-portfolio {
     width:1158px;
+    margin: auto;
     padding-top: 120px;
     padding-bottom: 120px; 
 }
