@@ -719,7 +719,7 @@ list-style: none;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
+     
 
 }
 .container-contentfooter {
@@ -1560,7 +1560,8 @@ input:checked+label>span {
     flex-wrap: nowrap;
 }
 .container-contentfooter {
-    margin-right: auto 0;
+    display: block;
+    margin-right: 120px;
 }
 .container.social-container{
     display:block;
