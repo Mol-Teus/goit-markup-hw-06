@@ -1395,9 +1395,7 @@ input:checked+label>span {
     display: inline-block;
     margin:0;
 }
-.container.social-container{
 
-}
 .inpform {
     width: 264px;
 }
@@ -1563,14 +1561,23 @@ input:checked+label>span {
     display: block;
     margin-right: 120px;
 }
+.footer-formcontainer {
+    max-width: 208px;
+    
+    margin-left: auto ;
+}
 .container.social-container{
     display:block;
+    margin-right:80px;
 }
-/*.container.social-container{
+.social-container {
+   /*margin-left:120px;*/
     
-}*/
- 
+
+}
 .footer-form {
+   
+    
     gap: 24px;
     justify-content: start;
     flex-wrap: nowrap;
