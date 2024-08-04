@@ -1383,8 +1383,8 @@ input:checked+label>span {
  
 
 .container-footer {
-    /*gap: 72px 24px;
-    gap:0;*/
+    /*gap: 72px 24px;*/
+    gap:0;
     justify-content: start;
     padding-left: 108px; 
 }
