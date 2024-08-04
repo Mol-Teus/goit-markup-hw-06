@@ -1358,8 +1358,8 @@ input:checked+label>span {
     max-width: 356px;
    }
 .our-portfolio {
-     width: 736px;
-    margin: auto;
+     width: 768px;
+    /*margin: auto;*/
     background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1367,7 +1367,7 @@ input:checked+label>span {
   }
   
 .our-potrfolio-container {
-    width: 736px;
+    width: 768px;
 }
 .our-team-list {
     gap:64px 24px;
