@@ -364,7 +364,7 @@ img {
     max-width: 496px;
 
     margin: 0 auto;
-    max-width: 216px;
+    
     margin-bottom: 72px;
 }
 .order-btn:hover,
@@ -1434,7 +1434,7 @@ input:checked+label>span {
 .main-title {
     padding-bottom: 188px;
     padding-top: 188px;
-    max-width: 1440px;
+    width: 1158px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office1x.jpg),url(./images/);
 }
@@ -1448,6 +1448,7 @@ input:checked+label>span {
     }
 }
 .page-title {
+    width: 1158px;
     margin-bottom: 48px;
 }
 .header-logo {
@@ -1559,9 +1560,14 @@ input:checked+label>span {
     flex-wrap: nowrap;
 }
 .container-contentfooter {
+    display: inline-block;
+     
+    width: 1158px;
+}
+.container-contentfooter {
     width: 1158px;
     display: block;
-    margin-right: 120px;
+    /*margin-right: 120px;*/
     gap: 0;
 }
 .footer-formcontainer {
