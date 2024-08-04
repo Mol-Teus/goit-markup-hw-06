@@ -1372,7 +1372,7 @@ input:checked+label>span {
 .our-team-list {
     gap:64px 24px;
 }
- .our-portfolio-list {
+.our-portfolio-list {
     row-gap: 72px;
     column-gap: 24px;
  }
@@ -1383,14 +1383,18 @@ input:checked+label>span {
  
 
 .container-footer {
-    gap: 72px 24px;
+    /*gap: 72px 24px;*/
     justify-content: start;
     padding-left: 108px; 
 }
 .container-contentfooter  {
     display: inline-block;
-    margin: auto 0;
+    /*margin: auto 0;*/
+    margin-bottom: 72px;
     width: 264px;
+}
+.container.social-container{
+    margin-left: 24px;
 }
 .footer-formcontainer {
     display: inline-block;
