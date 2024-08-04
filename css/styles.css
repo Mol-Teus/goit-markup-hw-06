@@ -53,7 +53,7 @@ img {
 .container {
    
     padding:  0 16px;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
      
 }
   
@@ -1579,6 +1579,7 @@ input:checked+label>span {
     width: 1158px;
     display: block;
     margin-right: 120px;
+    
     margin-bottom: 0;
     gap: 0;
 }
