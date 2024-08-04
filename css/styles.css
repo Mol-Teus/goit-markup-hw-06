@@ -1383,8 +1383,8 @@ input:checked+label>span {
  
 
 .container-footer {
-    /*gap: 72px 24px;*/
-    gap:0;
+    /*gap: 72px 24px;
+    gap:0;*/
     justify-content: start;
     padding-left: 108px; 
 }
@@ -1394,14 +1394,16 @@ input:checked+label>span {
     margin-bottom: 72px;
     width: 264px;
 }
-.container.social-container{
+.social-container{
     margin-left: 24px;
 }
 .footer-formcontainer {
     display: inline-block;
     margin:0;
 }
-
+.container.social-container {
+    margin-left:24px;
+}
 .inpform {
     width: 264px;
 }
