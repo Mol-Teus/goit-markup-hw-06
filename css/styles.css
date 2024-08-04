@@ -1577,7 +1577,7 @@ input:checked+label>span {
 .container-contentfooter {
     width: 1158px;
     display: block;
-    /*margin-right: 120px;*/
+    margin-right: 120px;
     margin-bottom: 0;
     gap: 0;
 }
@@ -1594,7 +1594,6 @@ input:checked+label>span {
  
 .footer-form {
    
-    
     gap: 24px;
     justify-content: start;
     flex-wrap: nowrap;
